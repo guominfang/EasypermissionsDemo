@@ -48,6 +48,6 @@ public class MainActivity extends AppCompatActivity implements EasyPermissions.P
 
     @Override
     public void onPermissionsDenied(int requestCode, @NonNull List<String> perms) {
-        Toast.makeText(this, "Granted Permission", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Denied Permission", Toast.LENGTH_SHORT).show();
     }
 }
